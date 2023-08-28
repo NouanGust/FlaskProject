@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(21, 30, 30);
+  margin: 20px auto;
+  text-align: center;
+  color: #fff;
+}
+body div h1 {
+  color: #fff;
+  text-align: center;
+  margin: 40px auto;
+}
+body form {
+  gap: 10px;
+}
+body form input {
+  border: none;
+  width: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+body form #greet {
+  width: 60px;
+  background-color: rgb(66, 66, 246);
+  color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
