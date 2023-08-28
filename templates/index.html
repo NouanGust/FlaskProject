@@ -8,9 +8,7 @@
     <title>Flask Project</title>
 </head>
     <body>
-        <div>
-            <h1>Diga olá!</h1>
-        </div>
+            <h1>Qual seu nome?</h1>
         <form action="greet" method="post">
             {% for message in get_flashed_messages() %}
                 <p> {{message}} </p>
@@ -19,5 +17,11 @@
             <br>
             <input type="submit" value="Olá" id="greet">
         </form>
+
+        <footer>
+            <p>Criado por <a href="https://github.com/NouanGust">Nohan Gustavo</a></p>
+            <p>Nenhum dado está sendo coletado por essa página.</p>
+        </footer>
+
     </body>
 </html>
